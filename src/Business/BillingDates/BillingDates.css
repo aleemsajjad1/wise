@@ -1,0 +1,98 @@
+.account-main-div {
+  font-size: 14px;
+}
+
+.table-color1 {
+  background-color: #231f20;
+  color: white;
+  border: 1px yellow;
+  border-radius: 5%;
+  height: 55px !important;
+}
+
+.table-color2 {
+  background-color: #414042;
+  color: white;
+}
+
+.bill-header-text {
+  padding-left: 2%;
+}
+
+.bill-header-text h4 {
+  display: inline-block;
+  font-size: 20px !important;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.bill-header-text span {
+  float: right;
+  font-weight: 700;
+  width: 120px !important;
+  font-size: 14px;
+  padding: 5px 32px !important;
+  cursor: pointer;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 60%;
+  display: inline-block;
+}
+
+.tbl-pad {
+  padding-top: 15px !important;
+  padding-left: 20px !important;
+}
+
+.radius-left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.radius-right {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.bill-label-background {
+  background-color: #e6e7e8;
+  border-radius: 12px;
+  height: 30px !important;
+  margin-right: 2%;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #414042;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #231f20;
+}
+
+.success {
+  background-color: #20FF00;
+}
+
+.fail {
+  background-color: red;
+}
+
+.null {
+  background-color: #FFCA9F;
+}
+
+@media (max-width: 991px) {
+  .account-main-div {
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 1310px) and (max-width: 1450px) {
+  .account-main-div {
+    margin-left: 5%;
+  }
+}
+/*# sourceMappingURL=BillingDates.css.map */

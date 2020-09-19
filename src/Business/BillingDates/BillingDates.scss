@@ -1,0 +1,156 @@
+.account-main-div {
+  // margin-top: 4%;
+  // margin-right: 5%;
+  font-size: 14px;
+}
+
+.table-color1 {
+  background-color: #231f20;
+  color: white;
+  border: 1px yellow;
+  border-radius: 5%;
+  height: 55px !important;
+}
+.table-color2 {
+  background-color: #414042;
+  color: white;
+}
+.bill-header-text {
+  padding-left: 3% !important;
+}
+.bill-header-text h4 {
+  display: inline-block;
+  font-size: 20px !important;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.months-for-bill {
+  margin-left: 55%;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 5px 10px !important;
+  cursor: pointer;
+}
+.year-for-bill {
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  // background-color: yellow;
+  border-radius: 60%;
+  display: inline-block;
+}
+.tbl-pad {
+  padding-top: 15px !important;
+  padding-left: 20px !important;
+}
+.radius-left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.radius-right {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+//   .bill-label-background {
+//     height: 20px !important;
+//     width: 55px;
+//     border-radius: 5px;
+//   }
+
+//   .span-color {
+//     border-radius: 12px;
+//     padding: 3px 12px;
+//   }
+.bill-label-background {
+  background-color: #e6e7e8;
+  border-radius: 12px;
+  margin-right: 3%;
+  font-weight: 700;
+  border: none;
+  // width: 110px !important;
+  font-size: 14px;
+  padding: 4px 32px !important;
+  cursor: pointer;
+}
+.for-bill-date {
+  padding-left: 44% !important;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #414042;
+}
+tbody tr:nth-child(odd) {
+  background-color: #231f20;
+}
+.success {
+  background-color: #20ff00;
+}
+.fail {
+  background-color: red;
+}
+.null {
+  background-color: #ffca9f;
+}
+
+@media (max-width: 991px) {
+  .bill-main-div {
+    margin-left: 7%;
+  }
+}
+@media (min-width: 1310px) and (max-width: 1450px) {
+  .account-main-div {
+    margin-left: 5%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1435px) {
+  .for-bill-date {
+    padding-left: 28% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .date-for-query {
+    padding-right: 24% !important;
+  }
+  // .bill-table tr td:nth-child(3) {
+  //   width: 32% !important;
+  // }
+  .for-bill-date {
+    padding-left: 11% !important;
+  }
+  .for-scroll-screen {
+    overflow-x: scroll;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1046px) {
+  .months-for-bill {
+    margin-left: 37%;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 501px) {
+  .acc-table tr td:nth-child(6) {
+    width: 22% !important;
+  }
+  .acc-table tr td:nth-child(4) {
+    width: 50% !important;
+  }
+  .acc-table tr td:nth-child(5) {
+    width: 35% !important;
+  }
+  .acc-table tr td:nth-child(2) {
+    width: 0% !important;
+  }
+  .acc-table tr td:nth-child(3) {
+    width: 0% !important;
+  }
+  .acc-table tr td:nth-child(1) {
+    width: 0% !important;
+  }
+  .main-div {
+    padding-right: 4% !important;
+  }
+}

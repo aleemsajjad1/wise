@@ -1,0 +1,35 @@
+.policy-card-outer {
+  margin-right: 10%;
+  margin-left: 0%;
+}
+.policy-card {
+  display: inline-block;
+  width: 45%;
+}
+.policy-card p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.card-contant {
+  border-color: transparent !important;
+}
+.card-body textarea {
+  font-size: 12px;
+  overflow: hidden;
+  width: 100%;
+  padding: 0px;
+}
+.policy-card-h3 {
+  font-weight: bold;
+  padding-bottom: 20px !important;
+}
+.policy-btn {
+  float: right;
+  margin-right: 24%;
+  margin-bottom: 30px;
+  width: 200px;
+  background-color: #2b00f3 !important;
+}
+.text-area {
+  padding: 0px 10px 0px 10px !important ;
+}

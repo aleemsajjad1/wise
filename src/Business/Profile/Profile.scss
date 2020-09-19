@@ -1,0 +1,52 @@
+.qr {
+  width: 90px !important;
+  height: 90px !important;
+  cursor: pointer;
+}
+.heading-size p {
+  // font-size: 16px;
+  font-weight: 700;
+}
+.heading-size span {
+  // font-size: 16px;
+  font-weight: 500;
+}
+.heading-size {
+  margin-top: 6%;
+}
+.pass-span {
+  font-size: 11px;
+  padding-left: 15px;
+}
+.int-span {
+  padding-left: 10px;
+  padding-right: 3px;
+}
+.span-color-term {
+  border-radius: 12px;
+  padding: 5px 10px;
+  background-color: #6d6e71;
+  color: white;
+//   width: 115px !important;
+//   display: inline-block;
+}
+.downloadQR {
+  font-weight: bold;
+  cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 1260px) {
+  .span-color {
+    width: 115px !important;
+    display: inline-block;
+  }
+  .span-color-term{
+    width: 115px !important;
+    display: inline-block;
+  }
+  .profile{
+      width: 100% !important;
+  }
+  .acc-tab a{
+      padding: 0px 10px !important;
+  }
+}

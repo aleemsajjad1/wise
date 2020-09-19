@@ -1,0 +1,66 @@
+.dashboard-cards-outer {
+  width: 100%;
+  height: auto;
+}
+
+.dashboard-card {
+  margin-left: 40px;
+  width: 180px;
+  border-radius: 12px;
+  display: inline-block;
+  height: 75px;
+}
+
+.dashboard-card span {
+  display: block;
+  height: 30px;
+  text-align: center;
+}
+
+.card-no {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+}
+
+.card-name {
+  font-size: 20px;
+  color: white;
+  font-weight: 450;
+  margin-top: 3%;
+}
+
+.card-color-1 {
+  background-color: #2b00f4;
+}
+
+.card-color-2 {
+  background-color: #2b00f4;
+}
+
+.card-color-3 {
+  background-color: #ffca9f;
+}
+
+.card-color-4 {
+  background-color: #e2e20a;
+}
+
+.card-color-5 {
+  background-color: #0ae2e2;
+}
+
+.card-color-6 {
+  background-color: #1d68ed;
+}
+
+.main-panel {
+  padding-left: 0% !important;
+}
+
+@media (min-width: 1000px) and (max-width: 1310px) {
+  .main-panel {
+    padding-left: 10% !important;
+  }
+}
+/*# sourceMappingURL=Dashboard.css.map */

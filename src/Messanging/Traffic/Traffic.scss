@@ -1,0 +1,47 @@
+.Traffic h1 {
+  text-align: center;
+  margin-top: 3%;
+}
+.traffic-label-background {
+  background-color: #e6e7e8;
+  padding: 4px 35px !important ;
+  border-radius: 12px;
+  border: none;
+  // height: 30px !important;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 5% !important;
+  cursor: pointer;
+}
+.trafic-header-text {
+  padding-left: 3% !important;
+}
+.day-for-traffic {
+  margin-left: 18%;
+  font-weight: 700;
+  //   font-size: 14px;
+  //   padding: 5px 15px !important;
+  //   cursor: pointer;
+}
+.taric-for-query {
+  padding-left: 24% !important;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .taric-for-query {
+    padding-left: 0px !important;
+  }
+  .traf-table tr td:nth-child(1) {
+    width: 8% !important;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1460px) {
+  .taric-for-query {
+    padding-left: 0px !important;
+  }
+}
+// @media (min-width:1025px ) and (max-width: 1560px) {
+//   .taric-for-query{
+//     margin-left: -145px !important;
+//   }
+
+// }

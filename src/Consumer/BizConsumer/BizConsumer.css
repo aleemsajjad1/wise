@@ -1,0 +1,57 @@
+.header-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0%;
+}
+
+.header-name h3 {
+  padding-top: 13px;
+  font-size: 22px;
+}
+
+.back-btn {
+  margin-right: 1%;
+}
+
+.back-btn a {
+  text-decoration: none !important;
+  font-size: 32px;
+  color: black;
+}
+
+.acc-header {
+  padding-top: 1%;
+}
+
+.acc-tab {
+  margin-left: 2%;
+  border-radius: 25px;
+}
+
+.acc-tab a {
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 3px 20px;
+}
+
+.acc-tab a:hover {
+  color: black;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: black !important;
+  color: white !important;
+  border-radius: 25px !important;
+}
+
+#profile-consumer {
+  background-color: white;
+  color: black !important;
+}
+
+.profile {
+  width: 65%;
+}
+/*# sourceMappingURL=BizConsumer.css.map */

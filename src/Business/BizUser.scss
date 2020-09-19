@@ -1,0 +1,66 @@
+.header-name {
+  display: flex;
+  margin-top: 0%;
+}
+.header-name h3 {
+  padding-top: 13px;
+  font-size: 22px;
+}
+.back-btn {
+  margin-right: 1%;
+  // padding-top: -1%;
+}
+.back-btn a {
+  text-decoration: none !important;
+  font-size: 32px;
+  color: black;
+  // padding-left: 1% !important;
+}
+.acc-header {
+  padding-top: 1%;
+  // padding-left: 4% !important;
+}
+.acc-tab {
+  margin-left: 2%;
+  border-radius: 25px;
+}
+
+
+.acc-tab a {
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 3px 20px;
+}
+.acc-tab a:hover {
+  color: black;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: black !important;
+  color: white !important;
+  border-radius: 25px !important;
+}
+#profile-component {
+  background-color: white;
+  color: black !important;
+}
+.profile {
+  width: 65%;
+  // margin-left: 1%;
+  // padding-top: 3%;
+}
+
+
+@media (min-width: 360px) and (max-width: 500px) {
+  .responsive-for-mobile {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .responsive-for-mobile{
+    width: 900px;
+    // padding-right: 6%;
+  }
+  
+}

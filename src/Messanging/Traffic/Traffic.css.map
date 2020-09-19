@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,QAAQ,CAAC,EAAE,CAAA;EACP,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,EAAE;CACjB",
+    "sources": [
+        "Traffic.scss"
+    ],
+    "names": [],
+    "file": "Traffic.css"
+}

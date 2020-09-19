@@ -1,0 +1,26 @@
+.empty-div {
+  background-color: white !important;
+  height: 50px;
+  -webkit-box-shadow: 1px 1px 5px 1px gray;
+          box-shadow: 1px 1px 5px 1px gray;
+  width: 100%;
+}
+
+.pad-0 {
+  padding: 0px !important;
+}
+
+.mrg-0 {
+  margin: 0px !important;
+}
+
+.main-panel {
+  padding: 5%;
+}
+
+@media (min-width: 989px) and (max-width: 1165px) {
+  .main-panel {
+    padding-left: 10%;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

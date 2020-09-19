@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,gBAAgB,EAAE,gBAAgB;EAClC,KAAK,EAAE,gBAAgB;CAC1B;;AACD,AAAA,YAAY,CAAA;EACR,WAAW,EAAE,GAAG;CACnB;;AACD,AAAA,aAAa,CAAA;EACT,WAAW,EAAE,GAAG;CACnB",
+    "sources": [
+        "Loyalty.scss"
+    ],
+    "names": [],
+    "file": "Loyalty.css"
+}

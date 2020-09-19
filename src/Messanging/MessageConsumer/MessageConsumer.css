@@ -1,0 +1,37 @@
+.consumer-mesg {
+  width: 100%;
+  max-width: 400px;
+  min-height: 350px;
+}
+
+.input-sec {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-radius: 0px !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.label-tag {
+  font-weight: bold;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+.message-btn {
+  float: right;
+  width: 180px;
+  height: 32px;
+  background-color: #2b00f3 !important;
+  font-size: 16px !important;
+  padding: 0px 5px 5px 5px !important;
+}
+
+.iner-text {
+  float: right;
+  font-size: 12px !important;
+}
+/*# sourceMappingURL=MessageConsumer.css.map */

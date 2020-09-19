@@ -1,0 +1,13 @@
+.pad-head-left {
+  padding-left: 20px !important;
+  font-weight: 500;
+  font-size: 15px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .support-table tr td:nth-child(2) {
+    width: 8% !important;
+  }
+  .for-scrolll {
+    overflow-x: scroll;
+  }
+}

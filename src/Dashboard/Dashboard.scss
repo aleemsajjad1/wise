@@ -1,0 +1,89 @@
+.dashboard-cards-outer {
+  width: 100%;
+  height: auto;
+}
+.dashboard-card {
+  margin-left: 15px;
+  width: 208px;
+  border-radius: 12px;
+  display: inline-block;
+  height: 80px;
+  margin-bottom: 16px;
+}
+
+.dashboard-card span {
+  display: block;
+  height: 30px;
+  text-align: center;
+}
+.card-no {
+  font-size: 34px;
+  color: white;
+  font-weight: bold;
+}
+.card-name {
+  font-size: 22px;
+  color: white;
+  font-weight: 450;
+  margin-top: 3%;
+}
+.card-color-1 {
+  background-color: #2B00F4;
+}
+.card-color-2 {
+  background-color: #2B00F4;
+}
+.card-color-3 {
+  background-color: #FFCA9F;
+}
+.card-color-4 {
+  background-color: #E2E20A;
+}
+.card-color-5 {
+  background-color: #0AE2E2;
+}
+.card-color-6 {
+  background-color: #1D68ED;
+}
+.main-panel{
+  padding-left: 0% !important;
+}
+@media (min-width:1000px) and (max-width:1310px){
+   .main-panel{
+     padding-top: 8% !important;
+     padding-left: 0% !important;
+   }
+}
+@media (min-width:500px) and (max-width:768px){
+  .main-panel{
+    padding-left: 10% !important;
+  }
+}
+@media (min-width:768px) and (max-width:1024px){
+  .main-panel{
+    padding-left: 5% !important;
+  }
+  .dashboard-card{
+    margin-bottom: 16px;
+  }
+}
+@media (min-width:360px) and (max-width:500px){
+  .dashboard-card{
+    margin: 10px 30%;
+    
+  }
+}
+@media (min-width: 1310px) and (max-width: 1550px){
+  .main-panel{
+    padding-left: 0% !important;
+  }
+}
+@media (max-width:767px) and (min-width:375px){
+  .scrool-mobile{
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .scrool-mobile::-webkit-scrollbar {
+    display: none;
+  }
+}

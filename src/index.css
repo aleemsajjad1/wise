@@ -1,0 +1,15 @@
+@font-face{
+  font-family: "Myriad-Pro";  
+  src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF) format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: myriad-pro, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: myriad-pro, sans-serif;
+}

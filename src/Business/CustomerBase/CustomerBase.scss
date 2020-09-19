@@ -1,0 +1,74 @@
+#customerBase {
+  background-color: white;
+  color: black !important;
+}
+.chartss{
+    width: 1400px;
+    // height: 1000px;
+    // margin-right: 20%;
+}
+.chart-width{
+    width: 300px;
+    padding-left: 3%;
+    padding-top: 1%;
+}
+.back-btn-customer{
+  text-decoration: none !important;
+  font-size: 32px;
+  color: black;
+  cursor: pointer;
+  // margin-left: 4%;
+}
+.nameHead{
+  font-weight: bold;
+}
+.nameHead-age{
+  font-size: 14px;
+  font-weight: 400;
+}
+.back-arrow{
+  // padding-bottom: 10px !important;
+  margin-top: -4% !important;
+}
+.scrool{
+  overflow:auto;
+  height: 350px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #F5F5F5;
+  
+} 
+::-webkit-scrollbar-thumb {
+  background-color: #E6E7E8;
+  border-radius: 5px ;
+}
+.color-for-bg-customer:nth-child(odd) {
+  background-color: #E4E5E6!important;
+}
+.color-for-bg-customer:nth-child(even) {
+  background-color: #EFEFF0 !important;
+}
+.for-margin-graph{
+  margin-left: -7% !important;
+}
+.month-graph{
+  width: 200px !important;
+  height: 200px !important;
+}
+@media (min-width:768px) and (max-width:1000px){
+  .graph-customerbase{
+    margin-right: 50%;
+    height: 300px;
+  }
+  .scrool{
+    width: 300px !important;
+  }
+  .heading-red{
+    // width: 300px !important;
+    margin-left: 0px !important;
+  }
+  .query-for-header{
+    width: 342px !important;
+  }
+}

@@ -1,0 +1,44 @@
+#messagess {
+  background-color: white;
+  color: black !important;
+}
+
+.message-label-background {
+  background-color: #e6e7e8;
+  border-radius: 12px;
+  margin-right: 2%;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 5px 32px !important;
+  cursor: pointer;
+}
+
+.message-p {
+  font-weight: 700;
+}
+
+.msg-head {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.msg-head-p {
+  font-size: 10px;
+  color: #797A7C;
+}
+
+.bg-msg-color {
+  background-color: #EFEFF0;
+  border-radius: 10px;
+  height: 40px;
+  width: 330px;
+}
+
+.msg-even-odd-bg:nth-child(even) {
+  background-color: #E4E5E6;
+}
+
+.msg-even-odd-bg:nth-child(odd) {
+  background-color: #EFEFF0;
+}
+/*# sourceMappingURL=Messages.css.map */

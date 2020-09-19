@@ -1,0 +1,31 @@
+.empty-div {
+  background-color: white !important;
+  height: 50px;
+  box-shadow: 1px 1px 5px 1px gray;
+  // top: 0px;
+  width: 100%;
+  // position: fixed;
+  // z-index: 999;
+}
+.pad-0 {
+  padding: 0px !important;
+}
+.mrg-0 {
+  margin: 0px !important;
+}
+.pr-0{
+padding-right: 0px !important;
+}
+.main-panel {
+  padding-top: 5%;
+}
+@media (min-width: 1600px) {
+  .col-lg-2 {
+    max-width: 14% !important;
+  }
+}
+@media (min-width: 989px) and (max-width: 1165px) {
+  .main-panel {
+    padding-left: 0% !important;
+  }
+}
