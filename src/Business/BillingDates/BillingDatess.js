@@ -82,7 +82,7 @@ class BillingDates extends Component {
             <div className="col-12">
               <div className="main-div">
                 <div className="bill-main-div">
-                  <div className="row date-for-query">
+                  <div className="row ">
                     <div className="bill-header-text col-4">
                       <h4>Billing dates</h4>
                     </div>
@@ -195,7 +195,7 @@ class BillingDates extends Component {
                               style={{ width: "10%" }}
                               className="tbl-pad pr-0 pl-0"
                             >
-                              ... {row.Number}
+                              . . . {row.Number}
                             </td>
                             <td style={{ width: "30%" }} className="tbl-pad">
                               <span

@@ -55,8 +55,8 @@
 }
 
 .span-color {
-  border-radius: 13px;
-  padding: 5px 20px;
+  border-radius: 12px;
+  padding: 5px 10px;
   color: white;
   background-color: #ffca9f;
 }
@@ -73,15 +73,16 @@ tbody tr:nth-child(odd) {
   padding-top: 20%;
 }
 
-@media (max-width: 991px) {
-  .account-main-div {
-    margin-left: 5%;
+@media all and (max-width: 768px) {
+  .acc-scroll {
+    padding-left: 6%;
+    padding-top: 0% !important;
   }
 }
 
-@media (min-width: 1310px) and (max-width: 1450px) {
-  .account-main-div {
-    margin-left: 5%;
+@media all and (max-width: 1024px) {
+  .acc-scroll {
+    padding-top: 3%;
   }
 }
 /*# sourceMappingURL=Account.css.map */

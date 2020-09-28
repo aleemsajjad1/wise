@@ -44,13 +44,32 @@ class Account extends Component {
             case 'MOST_RECENT':
                 this.sortByMostRecent();
                 break;
+            case 'Free_plan':
+                this.sortByMostFreePlan();
+                break;
         }
     }
 
     sortByAZ() {
         let sortedData = this.state.data;
-        // Descending
-        // console.log('DESC', sortedData);
+        sortedData.sort((a, b) => {
+            if (a.brand_name < b.brand_name) {
+                return -1;
+            }
+            if (a.brand_name > b.brand_name) {
+                return 1;
+            }
+            return 0
+        })
+        this.setState(prevState => {
+            return {
+                data: sortedData,
+                toggleSortOrder: !prevState.toggleSortOrder
+            }
+        });
+    }
+    sortByMostFreePlan() {
+        let sortedData = this.state.data;
         sortedData.sort((a, b) => {
             if (a.brand_name < b.brand_name) {
                 return -1;
@@ -93,7 +112,7 @@ class Account extends Component {
                                         <span style={{ backgroundColor: "#1D68ED" }} className="account-label-background sort-label-mrg"></span>
                                         <span style={{ backgroundColor: "#0AE2E2" }} className="account-label-background"></span>
                                         <span style={{ backgroundColor: "#E2E20A" }} className="account-label-background"></span>
-                                        <span style={{ backgroundColor: "#FFCA9F" }} className="account-label-background"></span>
+                                        <span onClick={() => this.sortTable('Free_plan')} style={{ backgroundColor: "#FFCA9F" }} className="account-label-background"></span>
                                         <span className="pr-4" onClick={() => this.sortTable('AZ')}>A-Z</span>
                                         <span >Most recent</span>
                                     </div>

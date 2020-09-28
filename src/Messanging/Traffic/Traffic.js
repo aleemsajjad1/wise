@@ -84,7 +84,7 @@ class Traffic extends Component {
                 height={200}
                 width={200}
             />) : (
-                    <div className="row pl-4" style={{ width: "97%" }}>
+                    <div className="row pl-4 for-pad-topp" style={{ width: "97%" }}>
                         <div className="col-12">
                             <div className="main-div">
                                 <div className="bill-main-div">

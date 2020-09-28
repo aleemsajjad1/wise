@@ -37,7 +37,7 @@ class SideNav extends Component {
             document.getElementById("mySidebar").style.width = "0%";
             document.getElementById("mySidebar").style.display = "none";
           }} > &times;</button>
-          <h1>WISE<span style={{ fontSize: "15px", marginLeft: "5px" }}> Admin </span></h1>
+          <h1>WISE<span style={{ fontSize: "15px", fontWeight: 400, marginLeft: "5px" }}> Admin </span></h1>
 
           <Link to="/admin/" className={`w3-bar-item w3-button  ${isActive(history, "/admin/")}`}>Dashboard</Link>
 

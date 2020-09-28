@@ -20,8 +20,8 @@
 
 .header-text h4 {
   display: inline-block;
-  font-size: 20px !important;
-  font-weight: 700;
+  font-size: 22px !important;
+  font-weight: bold;
   padding-bottom: 10px;
 }
 
@@ -62,9 +62,9 @@ tbody tr:nth-child(odd) {
   background-color: #231f20;
 }
 
-@media (min-width: 1310px) and (max-width: 1450px) {
+@media (min-width: 992px) and (max-width: 1450px) {
   .consumer-main-div {
-    margin-left: 5%;
+    margin-left: 1%;
   }
 }
 

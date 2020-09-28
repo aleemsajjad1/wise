@@ -1,0 +1,53 @@
+#redumptionActivity {
+  background-color: white !important;
+  color: black !important;
+}
+
+.redp-background {
+  background-color: #e6e7e8;
+  border-radius: 12px;
+  margin-right: 2%;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 5px 32px !important;
+  cursor: pointer;
+  border: none;
+}
+
+.point-value {
+  font-weight: 700;
+}
+
+.activity-size {
+  width: 85%;
+  border-radius: 8px;
+}
+
+.redep-act-inr {
+  font-size: 13px;
+  padding-top: 0.5%;
+  padding-left: 1% !important;
+  padding-bottom: 0%;
+}
+
+.hidden-bg {
+  color: #9f9fa1;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.hidden-bg p {
+  width: 45% !important;
+  padding: 0px;
+}
+
+.collapsible {
+  cursor: pointer;
+}
+
+.hidden-time {
+  bottom: 6px;
+  position: absolute;
+  margin-left: 18% !important;
+}
+/*# sourceMappingURL=RedemptionActivity.css.map */

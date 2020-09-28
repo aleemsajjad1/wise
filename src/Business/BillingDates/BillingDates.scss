@@ -77,7 +77,7 @@
   cursor: pointer;
 }
 .for-bill-date {
-  padding-left: 44% !important;
+  padding-left: 42% !important;
 }
 
 tbody tr:nth-child(even) {
@@ -101,56 +101,60 @@ tbody tr:nth-child(odd) {
     margin-left: 7%;
   }
 }
-@media (min-width: 1310px) and (max-width: 1450px) {
-  .account-main-div {
-    margin-left: 5%;
-  }
-}
-@media (min-width: 1025px) and (max-width: 1435px) {
-  .for-bill-date {
-    padding-left: 28% !important;
-  }
-}
+// @media (min-width: 1310px) and (max-width: 1450px) {
+//   .account-main-div {
+//     margin-left: 5%;
+//   }
+// }
+// @media (min-width: 1025px) and (max-width: 1435px) {
+//   .for-bill-date {
+//     padding-left: 28% !important;
+//   }
+// }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .date-for-query {
-    padding-right: 24% !important;
-  }
-  // .bill-table tr td:nth-child(3) {
-  //   width: 32% !important;
+  // .date-for-query {
+  //   padding-right: 24% !important;
   // }
   .for-bill-date {
-    padding-left: 11% !important;
+    padding-left: 22% !important;
+  }
+  .bill-table tr td:nth-child(6) {
+    width: 12% !important;
+  }
+  .bill-table tr td:nth-child(5) {
+    width: 18% !important;
   }
   .for-scroll-screen {
     overflow-x: scroll;
+    padding-top: 3%;
   }
 }
-@media (min-width: 1024px) and (max-width: 1046px) {
-  .months-for-bill {
-    margin-left: 37%;
-  }
-}
+// @media (min-width: 1024px) and (max-width: 1046px) {
+//   .months-for-bill {
+//     margin-left: 37%;
+//   }
+// }
 
-@media (max-width: 768px) and (min-width: 501px) {
-  .acc-table tr td:nth-child(6) {
-    width: 22% !important;
-  }
-  .acc-table tr td:nth-child(4) {
-    width: 50% !important;
-  }
-  .acc-table tr td:nth-child(5) {
-    width: 35% !important;
-  }
-  .acc-table tr td:nth-child(2) {
-    width: 0% !important;
-  }
-  .acc-table tr td:nth-child(3) {
-    width: 0% !important;
-  }
-  .acc-table tr td:nth-child(1) {
-    width: 0% !important;
-  }
-  .main-div {
-    padding-right: 4% !important;
-  }
-}
+// @media (max-width: 768px) and (min-width: 501px) {
+//   .acc-table tr td:nth-child(6) {
+//     width: 22% !important;
+//   }
+//   .acc-table tr td:nth-child(4) {
+//     width: 50% !important;
+//   }
+//   .acc-table tr td:nth-child(5) {
+//     width: 35% !important;
+//   }
+//   .acc-table tr td:nth-child(2) {
+//     width: 0% !important;
+//   }
+//   .acc-table tr td:nth-child(3) {
+//     width: 0% !important;
+//   }
+//   .acc-table tr td:nth-child(1) {
+//     width: 0% !important;
+//   }
+//   .main-div {
+//     padding-right: 4% !important;
+//   }
+// }

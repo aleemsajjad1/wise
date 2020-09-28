@@ -40,7 +40,8 @@
   color: black;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   background-color: black !important;
   color: white !important;
   border-radius: 25px !important;
@@ -52,6 +53,6 @@
 }
 
 .profile {
-  width: 65%;
+  width: 68%;
 }
 /*# sourceMappingURL=BizConsumer.css.map */

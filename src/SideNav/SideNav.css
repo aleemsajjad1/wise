@@ -1,5 +1,5 @@
 .sideNav {
-  width: 230px;
+  width: 13%;
   -webkit-box-shadow: transparent !important;
           box-shadow: transparent !important;
   background-color: #3a3f4f;
@@ -16,13 +16,13 @@
 .sideNav a {
   font-size: 17px;
   padding-left: 30px !important;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .sideNav button {
   font-size: 17px;
   padding-left: 30px !important;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .sideNav a:hover {
@@ -81,7 +81,7 @@
 }
 
 .active2 {
-  background-color: #3A3F4F;
+  background-color: #3a3f4f;
   color: white !important;
 }
 
@@ -100,6 +100,12 @@
 @media (max-width: 998px) {
   .empty-div {
     display: none;
+  }
+}
+
+@media all and (max-width: 1440px) {
+  .sideNav {
+    width: 15%;
   }
 }
 /*# sourceMappingURL=SideNav.css.map */

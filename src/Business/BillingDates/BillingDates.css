@@ -16,7 +16,7 @@
 }
 
 .bill-header-text {
-  padding-left: 2%;
+  padding-left: 3% !important;
 }
 
 .bill-header-text h4 {
@@ -26,12 +26,17 @@
   padding-bottom: 10px;
 }
 
-.bill-header-text span {
-  float: right;
+.months-for-bill {
+  margin-left: 55%;
   font-weight: 700;
-  width: 120px !important;
   font-size: 14px;
-  padding: 5px 32px !important;
+  padding: 5px 10px !important;
+  cursor: pointer;
+}
+
+.year-for-bill {
+  font-weight: 700;
+  font-size: 14px;
   cursor: pointer;
 }
 
@@ -60,8 +65,16 @@
 .bill-label-background {
   background-color: #e6e7e8;
   border-radius: 12px;
-  height: 30px !important;
-  margin-right: 2%;
+  margin-right: 3%;
+  font-weight: 700;
+  border: none;
+  font-size: 14px;
+  padding: 4px 32px !important;
+  cursor: pointer;
+}
+
+.for-bill-date {
+  padding-left: 42% !important;
 }
 
 tbody tr:nth-child(even) {
@@ -73,7 +86,7 @@ tbody tr:nth-child(odd) {
 }
 
 .success {
-  background-color: #20FF00;
+  background-color: #20ff00;
 }
 
 .fail {
@@ -81,18 +94,51 @@ tbody tr:nth-child(odd) {
 }
 
 .null {
-  background-color: #FFCA9F;
+  background-color: #ffca9f;
 }
 
 @media (max-width: 991px) {
-  .account-main-div {
-    margin-left: 5%;
+  .bill-main-div {
+    margin-left: 7%;
   }
 }
 
-@media (min-width: 1310px) and (max-width: 1450px) {
-  .account-main-div {
-    margin-left: 5%;
+@media (min-width: 1025px) and (max-width: 1435px) {
+  .for-bill-date {
+    padding-left: 28% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .for-bill-date {
+    padding-left: 32% !important;
+  }
+  .for-scroll-screen {
+    overflow-x: scroll;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 501px) {
+  .acc-table tr td:nth-child(6) {
+    width: 22% !important;
+  }
+  .acc-table tr td:nth-child(4) {
+    width: 50% !important;
+  }
+  .acc-table tr td:nth-child(5) {
+    width: 35% !important;
+  }
+  .acc-table tr td:nth-child(2) {
+    width: 0% !important;
+  }
+  .acc-table tr td:nth-child(3) {
+    width: 0% !important;
+  }
+  .acc-table tr td:nth-child(1) {
+    width: 0% !important;
+  }
+  .main-div {
+    padding-right: 4% !important;
   }
 }
 /*# sourceMappingURL=BillingDates.css.map */

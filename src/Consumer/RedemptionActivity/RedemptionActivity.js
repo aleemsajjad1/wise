@@ -79,7 +79,7 @@ class RedemptionActivity extends Component {
         console.log("kokokko", redumpActivity)
 
         return (
-            <div className="container-fluid" style={{ paddingTop: "5%" }}>
+            <div className="container-fluid pb-5" style={{ paddingTop: "5%" }}>
                 <div className="row">
                     <div className="col-12">
 

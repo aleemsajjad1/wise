@@ -170,8 +170,8 @@ class Consumer extends Component {
 
     render() {
         // const {data,isLoading}  = this.state
-        const {data,isLoading}  = this.state
-        console.log("jejejejejej",data)
+        const { data, isLoading } = this.state
+        console.log("jejejejejej", data)
         return (
             isLoading ? (<Loader className="text-center loader"
                 type="Oval"
@@ -179,12 +179,12 @@ class Consumer extends Component {
                 height={200}
                 width={200}
             />) : (
-                    <div className="row pl-4" style={{width:"97%"}}>
+                    <div className="row pl-4" style={{ width: "97%" }}>
                         <div className="col-12">
-                            <div >
+                            <div className="for-consumer-pad">
                                 <div className="consumer-main-div ">
                                     <div className="header-text">
-                                        <h4>Consumer</h4>
+                                        <h4 style={{ fontWeight: "bold" }}>Consumer</h4>
                                         <span className="label-background sort-label-mrg" onClick={() => this.sortTable('hightest')}>Highest</span>
                                         <span className="label-background" onClick={() => this.sortTable('lowest')}>Lowest</span>
                                         <span onClick={() => this.sortTable('AZ')}>A-Z</span>
@@ -216,7 +216,7 @@ class Consumer extends Component {
                                                         <td className="radius-right tbl-pad">{row.last_active}</td>
                                                     </tr>
                                                 ))
-                                             }
+                                            }
                                         </tbody>
                                     </table>
                                 </div>

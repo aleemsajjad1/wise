@@ -35,7 +35,7 @@ class MessageConsumer extends Component {
         this.setState({ isloading: true, iserror: false })
         sendMessageToConsumers(this.state.title, this.state.body).then((result) => {
             let responseJSON = result;
-                console.log(responseJSON)
+            console.log(responseJSON)
             if (responseJSON.error) {
                 this.setState({
                     iserror: true,
@@ -63,7 +63,7 @@ class MessageConsumer extends Component {
                     </FormGroup><br />
                     <FormGroup>
                         <Label className="label-tag">Content</Label>
-                        <Input className="pl-0 input-sec" type="text" placeholder="message content" value={this.state.body} id="title" onChange={this.changetext} />
+                        <textarea rows="0" cols="55" className="pl-0 input-sec form-control" type="text" placeholder="message content" value={this.state.body} id="title" onChange={this.changetext} />
                         <p className="iner-text pt-2">{this.state.titlebase} characters</p>
                     </FormGroup>
                     <br />

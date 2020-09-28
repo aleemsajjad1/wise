@@ -173,7 +173,7 @@ class CustomerBase extends Component {
                         <div className="mt-4">
                             <Bar
                                 data={{
-                                    labels: ['Indian', 'Chenies', 'Maly', 'Others'],
+                                    labels: ['Indian', 'Chinese ', 'Malay', 'Others'],
                                     datasets: [
                                         {
                                             backgroundColor: '#F07321',
@@ -297,7 +297,7 @@ class CustomerBase extends Component {
                 height={200}
                 width={200}
             />) : (
-                    <div style={{ paddingLeft: "4%" }} className="col-5 mt-5 ">
+                    <div className="col-5 mt-5 ">
                         <div className="row query-for-header">
                             <div className="col-1 back-arrow"><div onClick={this.back} className="back-btn-customer">&#8249;</div></div>
                             <div className="col-7 nameHead pl-2">{roll.customer.name}<p className="nameHead-age">{roll.customer.total_points} points</p></div>
@@ -305,13 +305,13 @@ class CustomerBase extends Component {
                         </div>
 
                         <div className="row heading-red">
-                            <div className="col-4"><h6>Date</h6></div>
-                            <div className="col-3 pl-4"><h6>Points</h6></div>
-                            <div className="col-4 pl-3"><h6>In-store ratings</h6></div>
+                            <div className="col-md-3"><h6>Date</h6></div>
+                            <div className="col-md-3 pl-4"><h6>Points</h6></div>
+                            <div className="col-md-6 pl-3"><h6>In-store ratings</h6></div>
                         </div>
 
                         <div className="scrool">
-                            <div style={{ width: "300px" }}>
+                            <div style={{ width: "290px" }}>
                                 {
                                     roll.details.map((redemp) => (
                                         <div className="color-for-bg-customer bg-redp-color ">

@@ -17,8 +17,8 @@
 }
 .header-text h4 {
   display: inline-block;
-  font-size: 20px !important;
-  font-weight: 700;
+  font-size: 22px !important;
+  font-weight: bold;
   padding-bottom: 10px;
 }
 .header-text span {
@@ -50,6 +50,11 @@ tbody tr:nth-child(even) {
 }
 tbody tr:nth-child(odd) {
   background-color: #231f20;
+}
+@media all and (max-width: 1024px) {
+  .for-consumer-pad {
+    padding-top: 3%;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1450px) {

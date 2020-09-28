@@ -19,7 +19,7 @@ class Messages extends Component {
             msgDetail: null,
             year: null,
             messageDetails: true,
-            isLoading:false,
+            isLoading: false,
             smessages: props.biz_user.messages.simple_messages,
             bdymessage: props.biz_user.messages.birthday_messages,
             biz_id: props.biz_user.id,
@@ -72,7 +72,7 @@ class Messages extends Component {
     render() {
         // const smessages = this.props.biz_user.messages.simple_messages
         // const bdymessage = this.props.biz_user.messages.birthday_messages
-        const { biz_id, messageDetails, msgDetail, smessages, bdymessage ,isLoading} = this.state
+        const { biz_id, messageDetails, msgDetail, smessages, bdymessage, isLoading } = this.state
 
         return (
             // <div>
@@ -115,7 +115,7 @@ class Messages extends Component {
                 <div className="row pl-4 mt-5">
                     <div className="col-6 message-p pl-4"><p>Messaging</p></div>
                     {/* <div className="col-1"></div> */}
-                    <div className="col-6 message-p pl-3"><p>Birthday month auto-message</p></div>
+                    <div className="col-6 message-p pl-5"><p>Birthday month auto-message</p></div>
                 </div>
                 {
                     isLoading ? (<Loader className="text-center loader"
@@ -135,7 +135,7 @@ class Messages extends Component {
                                         ))
                                     }
                                 </div>
-                                <div className="col-6 pl-3">
+                                <div className="col-6 pl-5">
                                     {(bdymessage == null) ? "" : (<div className="row bg-msg-color msg-even-odd-bg pt-1" onClick={() => this.getMessageDetails(bdymessage)}>
                                         <div className="col-9"><p className="msg-head m-0">{this.pretior(bdymessage.title, 30)}</p><p className="msg-head-p">{this.pretior(bdymessage.content, 40)}</p></div>
                                         <div className="col-3"><p className="msg-head m-0 pl-3" style={{ color: "#5E5F61" }}>saved</p><p className="msg-head-p">{bdymessage.created_at.split("", 10)}</p></div>
@@ -147,7 +147,7 @@ class Messages extends Component {
                 }
 
             </div>) : (
-                    <div className="col-6 pl-5 mt-5">
+                    <div className="col-6 pl-3 mt-5">
                         {
                             <div>
                                 <div className="row" >
@@ -157,64 +157,67 @@ class Messages extends Component {
                                 <div className="row" style={{ width: "600px", paddingTop: "4%", paddingLeft: "9%" }}>
                                     <div className="col-12 msg-content pl-0">{msgDetail.content}</div>
                                 </div>
-                                <p className="pl-4 pt-5" style={{ fontWeight: "bold" }}>Send Report</p>
+                                {msgDetail.hasOwnProperty("facebook_link") ? (
+                                    <p className="pl-4 pt-5" style={{ fontWeight: "bold" }}>Send Report</p>
+                                ) : (<div></div>)}
+                                {msgDetail.hasOwnProperty("facebook_link") ? (
+                                    <div className="col-12 pl-3 mr-0">
 
-                                {msgDetail.hasOwnProperty("facebook_link") ? (<div className="col-12 pl-3 mr-0">
-                                    <HorizontalBar
-                                        data={{
-                                            labels: ['Read', 'Sent'],
-                                            datasets: [
-                                                {
-                                                    backgroundColor: '#F07321',
-                                                    barPercentage: 0.6,
-                                                    data: [msgDetail.read_messages, msgDetail.total_customer_base]
-                                                }
-                                            ],
-                                        }}
-                                        width={800}
-                                        height={180}
-                                        options={{
-                                            plugins: {
-                                                datalabels: {
-                                                    color: '#898989',
-                                                    anchor: "end",
-                                                    align: "end",
+                                        <HorizontalBar
+                                            data={{
+                                                labels: ['Read', 'Sent'],
+                                                datasets: [
+                                                    {
+                                                        backgroundColor: '#F07321',
+                                                        barPercentage: 0.6,
+                                                        data: [msgDetail.read_messages, msgDetail.total_customer_base]
+                                                    }
+                                                ],
+                                            }}
+                                            width={800}
+                                            height={180}
+                                            options={{
+                                                plugins: {
+                                                    datalabels: {
+                                                        color: '#898989',
+                                                        anchor: "end",
+                                                        align: "end",
+                                                    },
                                                 },
-                                            },
-                                            responsive: true,
-                                            legend: {
-                                                display: false,
-                                            },
-                                            tooltips: {
-                                                enabled: false,
-                                            },
-                                            scales: {
-                                                xAxes: [{
-
+                                                responsive: true,
+                                                legend: {
                                                     display: false,
-                                                    gridLines: {
-                                                        display: false
-                                                    },
-                                                    ticks: {
-                                                        beginAtZero: true,
-                                                        min: 0,
-                                                        max: msgDetail.total_customer_base + 1
-                                                    }
-                                                }],
-                                                yAxes: [{
-                                                    borderWidth: 40,
-                                                    gridLines: {
-                                                        display: false
-                                                    },
-                                                    ticks: {
-                                                        // beginAtZero: true,
-                                                        // min: 0,
-                                                    }
-                                                }],
-                                            },
-                                        }}
-                                    />
-                                </div>) : (<div></div>)}
+                                                },
+                                                tooltips: {
+                                                    enabled: false,
+                                                },
+                                                scales: {
+                                                    xAxes: [{
+
+                                                        display: false,
+                                                        gridLines: {
+                                                            display: false
+                                                        },
+                                                        ticks: {
+                                                            beginAtZero: true,
+                                                            min: 0,
+                                                            max: msgDetail.total_customer_base + 1
+                                                        }
+                                                    }],
+                                                    yAxes: [{
+                                                        borderWidth: 40,
+                                                        gridLines: {
+                                                            display: false
+                                                        },
+                                                        ticks: {
+                                                            // beginAtZero: true,
+                                                            // min: 0,
+                                                        }
+                                                    }],
+                                                },
+                                            }}
+                                        />
+                                    </div>) : (<div></div>)}
                             </div>
                         }
                     </div>

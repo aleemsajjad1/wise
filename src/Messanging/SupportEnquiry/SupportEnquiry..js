@@ -31,6 +31,18 @@ class SupportEnquiry extends Component {
         })
 
     }
+    chunk = (str, n) => {
+        var ret = [];
+        var i;
+        var len;
+
+        for (i = 0, len = str.length; i < len; i += n) {
+            ret.push(str.substr(i, n))
+        }
+
+        return ret
+    };
+
     render() {
         const { data, isLoading } = this.state
         return (
@@ -41,8 +53,8 @@ class SupportEnquiry extends Component {
                 height={200}
                 width={200}
             />) : (
-                    <div className="for-scrolll">
-                        <div className="row main-div pl-4" style={{ width: "97%" }}>
+                    <div className="for-scrolll-query">
+                        <div className="row main-div pl-4" >
                             <div className="col-12">
                                 <div className="consumer-main-div ">
                                     <h4 className="pl-3" style={{ fontWeight: "700" }}>Support enquiry</h4>
@@ -60,8 +72,8 @@ class SupportEnquiry extends Component {
                                                 data.map((row, i) => (
                                                     <tr className="table-color1" key={i} >
                                                         <td style={{ width: "10%" }} className="radius-left tbl-pad">{row.name}</td>
-                                                        <td style={{ width: "20%" }} className="tbl-pad">{row.phone_number}</td>
-                                                        <td style={{ width: "60%" }} className="tbl-pad">{row.inquiry}</td>
+                                                        <td style={{ width: "10%" }} className="tbl-pad">{row.phone_number}</td>
+                                                        <td style={{ width: "70%" }} className="tbl-pad">{this.chunk(row.inquiry, 50).join('\n')}</td>
                                                         <td style={{ width: "10%" }} className="radius-right tbl-pad">{row.created_at.split(" ")[0]}</td>
                                                     </tr>
                                                 ))

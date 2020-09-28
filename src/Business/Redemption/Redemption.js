@@ -294,34 +294,32 @@ class Redemption extends Component {
             </div>
             <div className="for-media-query" style={{ width: "300px" }}>
               {redumptionPoint.map((redemp) => (
-                <div>
-                  <div className="bg-redp-color color-for-bg ">
-                    <div className="row collapsible1 m-0">
-                      <div className="col-5 redep-inr">
-                        {redemp.first_name + " " + redemp.last_name}
-                      </div>
-                      <div className="col-2 redep-inr">{redemp.points}</div>
-                      <div className=" col-5 redep-inr">
-                        <Rating
-                          className="pl-3 pt-1"
-                          name="half-rating-read"
-                          defaultValue={redemp.rating}
-                          precision={0.1}
-                          size={"small"}
-                          readOnly
-                        />
-                      </div>
+                <div className="bg-redp-color color-for-bg ">
+                  <div className="row collapsible1 m-0">
+                    <div className="col-5 redep-inr">
+                      {redemp.first_name + " " + redemp.last_name}
                     </div>
-                    <div style={{ display: "none" }}>
-                      <div className="row ml-0">
-                        <div className="col-8 redmp-hidden-bg pl-2">
-                          <p>{redemp.comment}</p>
-                        </div>
-                        <div className="col-4 redmp-hidden-bg">
-                          <span className="hidden-time1">
-                            {redemp.created_at.split(" ")[1]}
-                          </span>
-                        </div>
+                    <div className="col-2 redep-inr">{redemp.points}</div>
+                    <div className=" col-5 redep-inr">
+                      <Rating
+                        className="pl-3 pt-1"
+                        name="half-rating-read"
+                        defaultValue={redemp.rating}
+                        precision={0.1}
+                        size={"small"}
+                        readOnly
+                      />
+                    </div>
+                  </div>
+                  <div style={{ display: "none" }}>
+                    <div className="row ml-0">
+                      <div className="col-8 redmp-hidden-bg pl-2">
+                        <p>{redemp.comment}</p>
+                      </div>
+                      <div className="col-4 redmp-hidden-bg">
+                        <span className="hidden-time1">
+                          {redemp.created_at.split(" ")[1]}
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -354,10 +352,10 @@ class Redemption extends Component {
                         {redempReward.points}
                       </div>
                     ) : (
-                      <div className="col-2 redep-inr text-danger">
-                        -{redempReward.points}
-                      </div>
-                    )}
+                        <div className="col-2 redep-inr text-danger">
+                          -{redempReward.points}
+                        </div>
+                      )}
                     {/* <div className="col-2 redep-inr">{redempReward.points}</div> */}
                     <div className="col-5 redep-inr">
                       {" "}

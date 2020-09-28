@@ -8,8 +8,9 @@
   border-radius: 12px;
   margin-right: 2%;
   font-weight: 700;
+  border: none;
   font-size: 14px;
-  padding: 5px 32px !important;
+  padding: 4px 32px !important;
   cursor: pointer;
 }
 
@@ -24,21 +25,37 @@
 
 .msg-head-p {
   font-size: 10px;
-  color: #797A7C;
+  color: #797a7c;
 }
 
 .bg-msg-color {
-  background-color: #EFEFF0;
+  background-color: #efeff0;
   border-radius: 10px;
   height: 40px;
-  width: 330px;
+  width: 360px;
+  cursor: pointer;
 }
 
 .msg-even-odd-bg:nth-child(even) {
-  background-color: #E4E5E6;
+  background-color: #efeff0;
 }
 
 .msg-even-odd-bg:nth-child(odd) {
-  background-color: #EFEFF0;
+  background-color: #e4e5e6;
+}
+
+.msg-content {
+  font-size: 13px;
+  color: #797A7C;
+}
+
+.left-pad-mesg {
+  padding-left: 6%;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .bg-msg-color {
+    width: 325px;
+  }
 }
 /*# sourceMappingURL=Messages.css.map */

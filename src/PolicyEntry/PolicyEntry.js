@@ -78,7 +78,7 @@ class PolicyEntry extends Component {
     }
     render() {
 
-        const { isloading,isLoading, errormsg, iserror, data } = this.state
+        const { isloading, isLoading, errormsg, iserror, data } = this.state
 
         return (
             isLoading ? (<Loader className="text-center loader"
@@ -144,7 +144,7 @@ class PolicyEntry extends Component {
                                             color="#323A40"
                                             height={30}
                                             width={30}
-                                        />) : (<button type="button" class="btn btn-primary policy-btn" onClick={this.updatePolicy}>Save All</button>)
+                                        />) : (<button type="button" class="btn btn-primary policy-btn" onClick={this.updatePolicy}>Save all</button>)
                                     }
                                 </div>
                             </div>

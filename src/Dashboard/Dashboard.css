@@ -4,11 +4,12 @@
 }
 
 .dashboard-card {
-  margin-left: 40px;
-  width: 180px;
+  margin-left: 15px;
+  width: 208px;
   border-radius: 12px;
   display: inline-block;
-  height: 75px;
+  height: 80px;
+  margin-bottom: 16px;
 }
 
 .dashboard-card span {
@@ -18,13 +19,13 @@
 }
 
 .card-no {
-  font-size: 32px;
+  font-size: 34px;
   color: white;
   font-weight: bold;
 }
 
 .card-name {
-  font-size: 20px;
+  font-size: 22px;
   color: white;
   font-weight: 450;
   margin-top: 3%;
@@ -58,9 +59,29 @@
   padding-left: 0% !important;
 }
 
-@media (min-width: 1000px) and (max-width: 1310px) {
-  .main-panel {
-    padding-left: 10% !important;
+@media (max-width: 375px) {
+  .scrool-mobile {
+    padding-left: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .scrool-mobile {
+    padding-left: 12% !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .scrool-mobile {
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .dashboard-card {
+    margin-left: 8px;
+    width: 188px;
   }
 }
 /*# sourceMappingURL=Dashboard.css.map */

@@ -17,6 +17,7 @@
 .pass-span {
   font-size: 11px;
   padding-left: 15px;
+  font-style: italic;
 }
 .int-span {
   padding-left: 10px;
@@ -27,8 +28,8 @@
   padding: 5px 10px;
   background-color: #6d6e71;
   color: white;
-//   width: 115px !important;
-//   display: inline-block;
+  //   width: 115px !important;
+  //   display: inline-block;
 }
 .downloadQR {
   font-weight: bold;
@@ -39,14 +40,14 @@
     width: 115px !important;
     display: inline-block;
   }
-  .span-color-term{
+  .span-color-term {
     width: 115px !important;
     display: inline-block;
   }
-  .profile{
-      width: 100% !important;
+  .profile {
+    width: 100% !important;
   }
-  .acc-tab a{
-      padding: 0px 10px !important;
+  .acc-tab a {
+    padding: 0px 10px !important;
   }
 }

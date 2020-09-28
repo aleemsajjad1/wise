@@ -8,7 +8,11 @@
   padding-left: 15px;
   padding-top: 2px;
   padding-bottom: 2px !important;
-  background-color: #E6E7E8;
+  background-color: #e6e7e8;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-right: 15px;
 }
 
 .roles {

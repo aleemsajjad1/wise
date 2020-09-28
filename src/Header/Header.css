@@ -14,13 +14,23 @@
   margin: 0px !important;
 }
 
+.pr-0 {
+  padding-right: 0px !important;
+}
+
 .main-panel {
-  padding: 5%;
+  padding-top: 5%;
+}
+
+@media (min-width: 1600px) {
+  .col-lg-2 {
+    max-width: 14% !important;
+  }
 }
 
 @media (min-width: 989px) and (max-width: 1165px) {
   .main-panel {
-    padding-left: 10%;
+    padding-left: 0% !important;
   }
 }
 /*# sourceMappingURL=Header.css.map */

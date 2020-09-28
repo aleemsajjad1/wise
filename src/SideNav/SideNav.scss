@@ -1,6 +1,5 @@
 $sidenavcolor: #3a3f4f;
 
-
 .sideNav {
   // height: unset;
   width: 13%;
@@ -59,7 +58,7 @@ $sidenavcolor: #3a3f4f;
 }
 .dropdown-container Link:active {
   color: white !important;
-  background-color: $sidenavcolor ;
+  background-color: $sidenavcolor;
 }
 .dropdown-container {
   display: none;
@@ -75,7 +74,7 @@ $sidenavcolor: #3a3f4f;
   border-radius: 0px;
 }
 .active2 {
-  background-color:#3A3F4F;
+  background-color: #3a3f4f;
   color: white !important;
 }
 
@@ -92,5 +91,10 @@ $sidenavcolor: #3a3f4f;
 @media (max-width: "998px") {
   .empty-div {
     display: none;
+  }
+}
+@media all and (max-width: 1440px) {
+  .sideNav {
+    width: 15%;
   }
 }
